@@ -1,0 +1,27 @@
+
+body{
+    background-image: url("img-money.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+.op1 {
+    background-color: green;
+    opacity: 0.3;
+}
+
+.op2 {
+    background-color: green;
+    opacity: 0.6;
+}
+
+.op3 {
+    background-color: green;
+    opacity: 1;
+}
+
+.op4 {
+    background: rgba(0, 128, 0, 0.3); /*green con opacidad de 0.3*/
+}

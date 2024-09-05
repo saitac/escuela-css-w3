@@ -1,0 +1,27 @@
+
+p {
+    border-style: solid;
+    border-width: thin;
+    padding: 10px;
+}
+
+.p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 2.5rem;
+}
+
+.p2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: unset;
+    font-weight: bolder;
+}

@@ -1,0 +1,76 @@
+
+.sec {
+    display: flex;
+    gap: 3rem;
+}
+
+div {
+    max-width: 100px;
+    padding: 1rem;
+}
+
+div.uno {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: red;
+}
+
+div.dos {
+    border-style: dashed;
+    border-width: medium;
+    border-color: red green blue yellow /* red top, green right, blue bottom and yellow left */
+}
+
+div.tres {
+    border-style: solid;
+    border-width: thick;
+    border-color: #ff0000 /*red*/
+}
+
+div.cuatro {
+    border-style: double;
+    border-color: rgb(255,0,0); /*red*/
+}
+
+div.cinco {
+    border-style: groove;
+    border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+div.seis {
+    border-style: ridge;
+    border-color: hsl(0, 100%, 50%); /*red*/
+}
+
+div.siete {
+    border-style: inset;
+}
+
+div.ocho {
+    border-style: outset;
+}
+
+div.nueve {
+    border-style: none;
+}
+
+div.diez {
+    border-style: hidden;
+}
+
+p.uno {
+    padding: 0.5rem;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+p.dos {
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+p.tres {
+    border-left: 6px solid red;
+}
