@@ -1,0 +1,27 @@
+
+ul.a {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+ul.b {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+    margin: 0;
+    padding: 0;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+ul.img {
+    list-style-image: url("../../public/checked.png");
+}

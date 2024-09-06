@@ -1,0 +1,36 @@
+
+#customers th {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+#customers tr:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    min-width: 1024px;
+    border-collapse: collapse; /* se eliminan los bordes de la tabla y queda más limpio*/
+}
+
+th {
+    height: 70px;
+}
+
+table, th, td  {
+    border: 1px solid 
+}
+
+/* contenedor de la tabla para hacerlo responsive*/
+.conttbl {
+    width: 100%;
+    overflow-x: scroll;
+}

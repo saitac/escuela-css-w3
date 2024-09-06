@@ -1,0 +1,51 @@
+/* 
+se utiliza para definir como un elemento se mostrará en la página web.
+cada elemento HTML tiene un valor por defecto.
+el valor por defecto en la mayoría de los elementos es block o inline.
+la propiedad "display" se usa para cambiar el valor por defecto.
+
+**** elementos con display = block por defecto
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section>
+
+**** elementos con display = inline por defecto
+<span>
+<a>
+<img>
+*/
+
+/*https://paletadecolores.com.mx/colores/verde/*/
+
+.principal {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo {
+    background-color: #257e1a;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+.contenido {
+    background-color: #66bb54;
+    padding: 10px;
+    
+}
+
+.muestra {
+    
+}
+
