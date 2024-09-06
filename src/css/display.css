@@ -42,10 +42,16 @@ la propiedad "display" se usa para cambiar el valor por defecto.
 .contenido {
     background-color: #66bb54;
     padding: 10px;
-    
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;    
 }
 
 .muestra {
-    
+    display: block;
+}
+
+.no_muestra {
+    display: none;
 }
 
