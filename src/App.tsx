@@ -10,14 +10,14 @@ import Fonts from "./components/fonts"
 import Icons from "./components/icons"
 import Lists from "./components/lists"
 import Table from "./components/table"
+import Display from "./components/display"
+import Width from "./components/width"
+
+
 
 */
 
-import Display from "./components/display"
-
-
-
-
+import Position from "./components/position"
 
 function App() {
   return (
@@ -34,10 +34,13 @@ function App() {
       <Icons/>
       <Lists/>
       <Table/>
-      */}
       <Display/>
-          
+      <Width/>
+
+
+      */}
       
+      <Position/>
       
     </>
   )

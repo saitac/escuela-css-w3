@@ -1,0 +1,83 @@
+/*
+
+especifica el tipo de posicionamiento usado por un elemento
+existen cinco tipos de posicionamineto:
+
+1) static
+
+valor por defecto, los elementos estáticos no se ven afectados por las propiedades top, bottom, left y right
+un elemento estático, no es posicionado de una manera particular, se posiciona de acuerdo al flujo normal de la página
+
+2) relative
+
+configurando las propiedades top, right, bottom y left , causa que el elemento sea ajustado fuera de su posicion natural
+
+3) fixed
+
+Es posicionado de forma relativa al "viewport", esto significa que permanece en el mismo lugar aún cuando baje el
+scroll de la página, es decir, siempre se ve el elemento.
+
+4) absolute
+
+Un elemento absoluto es posicionado de manera relativa a la posicion de su ancestro más cercano
+
+5) sticky
+
+Un elemento sticky es posicionado en base a la posición del scroll
+
+
+
+*/
+
+p {
+    border-style: solid;
+    border-color: red;
+    max-width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+p.estatico {
+    position: static;
+}
+
+p.relativo {
+    position: relative;
+    left: 300px;
+}
+
+p.fijo {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+div.absoluto1 {
+    position: relative;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    max-width: 800px;
+}
+
+div.absoluto2 {
+    position: absolute;
+    border-style: dotted;
+    border-color: blue;
+    padding: 5px;
+    max-width: 100px;
+    right: 0px;
+    top: 10px;
+}
+
+div.sticky{
+    position: sticky;
+    border-style: dotted;
+    background-color: bisque;
+    text-align: center;
+    top:0px;
+
+}
+
+
