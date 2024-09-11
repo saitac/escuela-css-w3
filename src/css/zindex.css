@@ -1,0 +1,49 @@
+/*
+
+Cuando los elementos son posicionados, pueden sobreponerse a otros
+la propiedad z-index, especifica el orden en la que los elementos se mostrarán, u elemento puede
+estar en frente o detráz de otro
+un elemento puede tener un orden positivo o negativo.
+
+*/
+
+div.div-base {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+div.div-1 {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 650px;
+    z-index: 1;
+}
+
+div.div-2{
+    position: absolute;
+    background: lightgray;
+    height: 60px;
+    width: 300px;
+    top:60px;
+    left: 620px;
+    z-index: 3;
+}
+
+div.div-3{
+    position: absolute;
+    background: lightgreen;
+    width: 250px;
+    top:-10px;
+    left: 750px;
+    height: 80px;
+    z-index: 2;
+}
+
+img.tree {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

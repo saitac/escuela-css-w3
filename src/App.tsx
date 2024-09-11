@@ -12,12 +12,13 @@ import Lists from "./components/lists"
 import Table from "./components/table"
 import Display from "./components/display"
 import Width from "./components/width"
-
-
+import Position from "./components/position"
+import Zindex from "./components/zindex"
+import Overflow from "./components/overflow"
 
 */
 
-import Position from "./components/position"
+import FloatClear from "./components/floatClear"
 
 function App() {
   return (
@@ -36,11 +37,12 @@ function App() {
       <Table/>
       <Display/>
       <Width/>
-
+      <Position/>
+      <Zindex/>
+      <Overflow/>
 
       */}
-      
-      <Position/>
+      <FloatClear/>
       
     </>
   )

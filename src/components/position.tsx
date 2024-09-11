@@ -12,9 +12,8 @@ const Position = () => {
                 <div className="absoluto1">DIV externo
                     <div className="absoluto2">DIV absoluto interno</div>
                 </div>
-                <div className="sticky">Sticky</div>
+                <div className="sticky">Sticky</div>  
             </div>
-            
         </div>
     )
 }
